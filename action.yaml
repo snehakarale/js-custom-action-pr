@@ -1,0 +1,6 @@
+name: Javascript Custom Action
+description: 'Automatically add a thank-you Giphy GIF to pull requests'
+
+runs:
+  using: node20
+  main: dist/index.js
